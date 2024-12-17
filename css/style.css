@@ -1,0 +1,973 @@
+/* all common css start */
+/* all common css end */
+
+/* headerpart start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ol,ul{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* headerpart end */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+    transition: .5s;
+    margin-right: 50px;
+}
+
+.navbar-brand:hover{
+    color: #c2c2c2;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    transition: .5s;
+    margin: 0 20px;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: #c2c2c2;
+}
+
+.navbar-collapse button{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    padding: 12px 14px;
+    border-radius: 28px;
+    border: none;
+    transition: .5s;
+    background: none;
+    margin-left: 20px;
+}
+
+.navbar-collapse button:hover{
+    background: #fff;
+    color: black;
+}
+/* header Part End */
+
+
+
+/*  banner start ptart */
+#bannerpart{
+    background:url(../images/BG\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.sideText a{
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 30%;
+    right: 65px;
+    rotate: 180deg;
+    font-size: 24px;
+    color: #fff;
+}
+
+.banneroverly{
+    background: rgba(0, 0, 0, 0.2);
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+
+.bannertext p{
+    color: #fff;
+    font-size: 24px;
+    line-height: normal;
+}
+
+.bannertext h1{
+    font-size: 110px;
+    font-weight: 700;
+    line-height: normal;
+    color: #fff;
+    letter-spacing: -2%;
+    margin-bottom: 40px;
+}
+
+.bannerin .left a i{
+    color: #fff;
+    font-size: 45px;
+    margin-right: 8px;
+    margin-top: 30px;
+}
+
+.bannerin .right a i{
+    color: black;
+    font-size: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+
+.right h6 a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: underline;
+    margin-left: 98px;
+    margin-top: 8px;
+}
+
+.aaa{
+    position: relative;
+    margin-left: 50px;
+}
+
+.aaa::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    top: 50%;
+    left: -50px;
+
+}
+.searchitem{
+    margin: 30px;
+}
+
+.searchbar a i{
+    font-size: 32px;
+    color: #fff;
+    background: red;
+    padding: 30px;
+    border-radius:20px;
+    
+}
+
+.searchbar{
+    background: #fff;
+    padding: 32px 72px;
+    border-radius: 16px;
+    margin-top: 60px;
+}
+.searchitem{
+
+}
+.banner .aaa{
+    -webkit-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);  
+    box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
+   left: 0;
+   bottom: 0;
+   padding-bottom: 80px;
+   background: rgb(43, 18, 18);
+   border-radius: 10px;
+}
+
+/* banner part end */
+
+/* catagoripart start */
+
+.catagoriheader h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 135px;
+}
+
+.catagoriheader p{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.catagoriheader{
+    margin-bottom: 65px;
+}
+
+.catagoriitem{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 32px;
+    position: relative;
+    margin-bottom: 135px;
+    margin-top: 10px;
+}
+
+
+
+
+.catagoriitem h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    margin-top: 20px;
+}
+
+.catagoriitem p{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 30px;
+}
+
+.badge p{
+    font-size: 18px;
+    background: burlywood;
+    color: chocolate;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    right: 32px;
+}
+/* headerpart end */
+
+
+/* * Trendin Part Start */
+.trendingItem{
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 140px;
+    margin-top: 10px;
+}
+
+.clock, .text2, .tText1{
+    padding: 0 16px;
+}
+
+.trendingItem img{
+    width: 100%;
+}
+
+.trendingText h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+
+.trendingText p{
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+
+.trendingText{
+    margin-bottom: 65px;
+}
+
+.tenText1 h1{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.tenText1 p{
+    font-size: 16px;
+    line-height: normal;
+    color: gray;
+}
+
+.tenText1 i{
+    font-size: 36px;
+    background: blanchedalmond;
+    padding: 12px;
+    border-radius: 50px;
+    color: gray;
+}
+
+.tenText1{
+    margin-top: 32px;
+    margin-bottom: 28px;
+}
+
+.text2 p{
+    font-size: 14px;
+    color: gray;
+    line-height: normal;
+}
+
+.text2 h1{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.point{
+    text-align: right;
+    margin-top: 9px;
+}
+
+.text2{
+    margin-bottom: 40px;
+}
+
+.text2 i{
+    color: rgb(205, 190, 50);
+}
+
+.clock{
+    gap: 8px;
+}
+
+.clock i{
+    font-size: 18px;
+    color: rgb(255, 0, 98);
+}
+
+.clock p{
+    font-size: 15px;
+    line-height: 20px;
+    color: gray;
+    margin-bottom: 8px;
+}
+/* Trendin Part End */
+
+/* tending part end */
+
+/* destination part start */
+
+#destination{
+    margin-bottom: 135px;
+}
+.destinationHeader h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+
+.destinationHeader p{
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    letter-spacing: -0.38px;
+    color: grey;
+}
+
+.destinationHeader{
+    margin-bottom: 64px;
+}
+
+.img1,.img2,.Part2,.Upper3,.Under1,.Under2{
+    position: relative;
+}
+
+.ddesImgText{
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+   
+}
+
+.Badge{
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+.tBadge{
+    background: wheat;
+    color: chocolate;
+    font-size: 18px;
+    border-radius: 16px;
+    position: absolute;
+  
+}
+
+.Badge p{
+    background: wheat;
+    color: chocolate;
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 5px 10px;
+}
+
+.img1 img{
+    width: 100%;
+}
+
+
+.img2 img{
+    width: 100%;
+}
+
+.Part2 img{
+    width: 100%;
+}
+
+.Upper3 img{
+    width: 100%;
+}
+
+.Under1 img{
+    width: 216px;
+    height: 274px;
+}
+
+
+.Under2 img{
+    height: 274px;
+    width: 285px;
+}
+
+.ddesImgText h4{
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.38;
+}
+
+.ddesImgText p{
+    font-size: 16px;
+    left: 323px;
+    bottom: 32px;
+}
+/* Destination Part End */
+/* Best Seller Part Start */
+#sellerpart{
+    margin-bottom: 136px;
+}
+.sellerhead{
+    margin-bottom: 64px;
+}
+
+.selleritem{
+    position: relative;
+}
+
+.sBadge{
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    z-index: 33;
+}
+
+.salertext{
+    position: absolute;
+    bottom: 160px;
+    left: 32px;
+    z-index: 33;
+}
+
+.sBadge p{
+    background: burlywood;
+    color: chocolate;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+
+
+.sellerhead h4{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+}
+
+.sellerhead p{
+    font-size: 20px;
+    line-height: 26px;
+    color: grey;
+}
+
+.check a{
+    font-size: 24px;
+    color: #fff;
+    background: rgb(212, 0, 64);
+    padding: 22px 40px;
+    border-radius: 40px;
+}
+
+.selleritem img{
+    width: 100%;
+}
+
+
+.salxp a{
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    background: rgb(189, 2, 49);
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 24px;
+}
+.saltext h3{
+    font-size: 24px;
+    line-height: normal;
+    margin-top: 32px;
+}
+/* Best Seller Part End */
+
+
+
+/* Tour Part Start */
+#tourpart{
+    margin-bottom: 135px;
+}
+.tourhead h4{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+
+.tourhead p{
+    font-size: 20px;
+    line-height: 26px;
+    color: grey;
+}
+
+.tourhead{
+    margin-bottom: 64px;
+}
+
+.tourImg img{
+    width: 100%;
+}
+
+.tourText h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.38px;
+    color: brown;
+    margin-bottom: 16px;
+}
+
+.tourText h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 30px;
+    margin-bottom: 90px;
+}
+
+.tourText h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tourText p{
+    font-size: 15px;
+    line-height: normal;
+    color: grey;
+}
+
+.tourText a{
+    color: black;
+    margin-right: 20px;
+    margin-top: 160px;
+}
+
+.tourtextdd{
+    margin-top: 60px;
+}
+
+.tourbg{
+    background: rgb(255, 0, 98);
+    padding: 30px 200px;
+    border-radius: 20px;
+    margin-bottom: 136px;
+}
+
+.tourbg h1{
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 500;
+    letter-spacing: -0.38px;
+    margin-bottom: 10px;
+}
+
+.tourbg p{
+    font-size: 20px;
+    line-height: normal;
+}
+
+.tourbg a{
+    color: rgb(255, 0, 98);
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+/* Tour Part End */
+
+/*  */
+
+
+/* ============================= */
+/* destination part end */
+
+/* headerpart start */
+#subscriber{
+    position: relative;
+}
+
+.supBGR {
+    position: absolute;
+    top: -25px;
+    left: 260px;
+    z-index: -1;
+}
+
+.subBGRImg img{
+    width: 100%;
+}
+
+.sImgB1 img{
+    width: 100%;
+}
+
+.subdcribeText h5{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: -0.38px;
+    color: rgb(255, 0, 55);
+    margin-bottom: 8px;
+}
+
+.subdcribeText h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.77px;
+}
+
+.subdcribeText p{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    color: gray;
+    margin-top: 24px;
+    margin-right: 30px;
+    margin-bottom: 72px;
+}
+
+.subdcribeText input{
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 129px 30px 50px;
+    margin: 0;
+}
+
+.subdcribeText button{
+    border: none;
+    padding: 30px;
+    color: #fff;
+    background: rgb(255, 0, 55);
+}
+
+.subdcribeText h4{
+    font-size: 16px;
+    margin-top: 48px;
+    font-weight: 400;
+}
+
+.subdcribeText form{
+    position: relative;
+}
+
+.subdcribeText a{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    z-index: 5455;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: gray;
+}
+/* Subscriber Part End */
+/* headerpart end */
+/* boxpart start */
+#boxpart{
+    padding: 100px;
+}
+.boxitem img{
+    width: 100%;
+    position: relative;
+}
+.boxhead h1{
+    font-size: 30px;
+    padding: 60px;
+    font-weight: 500;
+
+
+}
+.boxhead p{
+    font-size: 20px;
+    padding: 30px;
+    font-weight: 400;
+
+
+}
+.headphone{
+    position: absolute;
+    font-size: 20px;
+
+}
+
+
+/* boxpart end */
+#subscriberpart{
+    position: relative;
+}
+
+.dot {
+    
+    top: -25px;
+    left: 260px;
+    z-index: -1;
+}
+
+.subImg img{
+    width: 100%;
+}
+
+.sImgB1 img{
+    width: 100%;
+}
+
+.subdcribeText h5{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: -0.38px;
+    color: rgb(255, 0, 55);
+    margin-bottom: 8px;
+}
+
+.subdcribeText h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.77px;
+}
+
+.subdcribeText p{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: -0.12px;
+    color: gray;
+    margin-top: 24px;
+    margin-right: 30px;
+    margin-bottom: 72px;
+}
+
+.subdcribeText input{
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 129px 30px 50px;
+    margin: 0;
+}
+
+.subdcribeText button{
+    border: none;
+    padding: 30px;
+    color: #fff;
+    background: rgb(255, 0, 55);
+}
+
+.subdcribeText h4{
+    font-size: 16px;
+    margin-top: 48px;
+    font-weight: 400;
+}
+
+.subdcribeText form{
+    position: relative;
+}
+
+.subdcribeText a{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    z-index: 5455;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: gray;
+}
+/* footer start */
+
+.footerItem h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.footerItem ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footerItem ul li a{
+    font-size: 16px;
+    line-height: 40px;
+    color: gray;
+    letter-spacing: -0.26px;
+    transition: .5s;
+}
+
+
+.footerItem ul li a:hover{
+    color: black;
+}
+footerItem ul li a:hover{
+    color: black;
+}
+
+.talks h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.talks h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.talks i{
+    margin-left: 24px;
+}
+.talks input {
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px 109px 30px 70px;
+}
+
+.talks form{
+    position: relative;
+}
+
+.talks form i{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.talks button{
+    border: none;
+    color: #fff;
+    background: rgb(255, 0, 55);
+    padding: 30px;
+}
+
+.privacy h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.privacy a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+
+.pyments img{
+    width: 100%;
+}
+
+.pyments{
+    margin-bottom: 20px;
+}
+/* Fotter Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start 
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+/* footer end */
